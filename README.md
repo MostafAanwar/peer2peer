@@ -12,9 +12,14 @@ A lightweight peer-to-peer chat system built in Java. This project demonstrates 
 
 ## 📁 Project Structure
 
-src/ └── peertopeer/ 
+src/ 
+
+└── peertopeer/ 
+
 ├── ChatRoom.java # Handles message exchange between peers 
+
 ├── LocalChatPeer.java # Entry point, starts peer and listens for connections 
+
 ├── SimpleChatUI.java # Swing UI for message input/output 
   └── TextMessage.java # Serializable message data class
 
